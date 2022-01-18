@@ -17,6 +17,11 @@ const UseRef = (props) => {
             <SectionTitle title="Exercício #01"/>
             <div className="center">
                 <span className="text">{count}</span>
+                <div>
+                    <button className="btn">
+                        
+                    </button>
+                </div>
             </div>
         </div>
     )
