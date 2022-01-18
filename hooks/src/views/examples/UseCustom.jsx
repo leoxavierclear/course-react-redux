@@ -18,8 +18,11 @@ const UseRef = (props) => {
             <div className="center">
                 <span className="text">{count}</span>
                 <div>
-                    <button className="btn">
-                        
+                    <button className="btn"
+                        onClick={() => inc()}> INCREMENTO
+                    </button>
+                    <button className="btn"
+                        onClick={() => dec()}> DECREMENTO
                     </button>
                 </div>
             </div>
